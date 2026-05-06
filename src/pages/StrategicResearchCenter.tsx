@@ -2,12 +2,12 @@ import { Download, Eye, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import hero from "@/assets/src-hero.jpg";
-import imgMillennials from "@/assets/study-millennials-peru.jpg";
-import imgMarcas from "@/assets/study-marcas-blancas.jpg";
-import imgPet from "@/assets/study-pet-money.jpg";
-import imgBarometro from "@/assets/study-barometro-talento.jpg";
-import imgDespensa from "@/assets/study-despensa-inflacion.jpg";
-import imgSilver from "@/assets/study-silver-economy.jpg";
+import imgMillennials from "@/assets/covers/peru.jpg";
+import imgMarcas from "@/assets/covers/marca-blanca.jpg";
+import imgPet from "@/assets/covers/mascotas.jpg";
+import imgBarometro from "@/assets/covers/dch.jpg";
+import imgDespensa from "@/assets/covers/despensa.jpg";
+import imgSilver from "@/assets/covers/silver.jpg";
 
 type Study = {
   title: string;
@@ -31,30 +31,35 @@ const studies: Study[] = [
       "Marcas Blancas: símbolo del consumo inteligente. El valor de gastar menos sin renunciar a la calidad",
     authors: "Alejandro Alegret y Sílvia Xancó",
     image: imgMarcas,
+    pdf: "/studies/EAE_SRC_marca_blanca.pdf",
     category: "Consumo",
   },
   {
     title: "Pet-money. La economía de las mascotas y su impacto en el hogar español",
     authors: "Paulo Sartorato",
     image: imgPet,
+    pdf: "/studies/EAE_SRC_mascotas.pdf",
     category: "Economía doméstica",
   },
   {
     title: "X Barómetro DCH. Gestión del Talento en España, Portugal y Latinoamérica 2025/26",
     authors: "Sergio Carol",
     image: imgBarometro,
+    pdf: "/studies/EAE_SRC_DCH_2026.pdf",
     category: "Talento · RR.HH.",
   },
   {
     title: "La despensa a presión. Radiografía de la inflación alimentaria en España (2015-2025)",
     authors: "Samer Ajour El Zein",
     image: imgDespensa,
+    pdf: "/studies/EAE_SRC_LaDespensaAPresion.pdf",
     category: "Macroeconomía",
   },
   {
     title: "Silver Economy y deporte: Una oportunidad social, económica y de salud",
     authors: "Ángel Moreno Inocencio",
     image: imgSilver,
+    pdf: "/studies/EAE_SRC_silver_economy_deporte.pdf",
     category: "Demografía",
   },
 ];
