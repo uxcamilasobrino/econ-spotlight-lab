@@ -116,14 +116,14 @@ const StrategicResearchCenter = () => {
               key={s.title}
               className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
             >
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <div className="relative aspect-[3/4] overflow-hidden bg-muted">
                 <img
                   src={s.image}
                   alt={s.title}
                   width={1024}
-                  height={768}
+                  height={1365}
                   loading="lazy"
-                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                  className="h-full w-full object-contain transition duration-500 group-hover:scale-105"
                 />
                 <span className="absolute left-4 top-4 rounded-full bg-background/95 px-3 py-1 text-xs font-medium text-foreground backdrop-blur">
                   {s.category}
