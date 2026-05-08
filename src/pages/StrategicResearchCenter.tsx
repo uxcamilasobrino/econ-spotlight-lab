@@ -139,7 +139,7 @@ const StrategicResearchCenter = () => {
                         className="flex-1 bg-brand text-brand-foreground hover:bg-brand/90"
                         onClick={() => setViewing(s)}
                       >
-                        <Eye className="mr-2 h-4 w-4" /> Ver online
+                        <Eye className="mr-2 h-4 w-4" /> Ver
                       </Button>
                       <Button asChild variant="outline" size="icon" aria-label="Descargar PDF">
                         <a href={s.pdf} download>
